@@ -1,0 +1,29 @@
+// Normalize page styles
+@import url(../../bower_components/normalize-less/normalize.less);
+
+
+/* BEGIN GLOBAL STYLES */
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+}
+
+html, body {
+  height: 100%;
+  font-size: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.clearfix::after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+}
